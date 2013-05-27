@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerGameApp", "MultiplayerGameApp\MultiplayerGameApp.csproj", "{E72CC747-C9CA-4ED6-AC0F-753089D2B9DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeTests", "SomeTests\SomeTests.csproj", "{8431799F-32CF-41E9-9058-A16D5159AFAD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{E72CC747-C9CA-4ED6-AC0F-753089D2B9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E72CC747-C9CA-4ED6-AC0F-753089D2B9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E72CC747-C9CA-4ED6-AC0F-753089D2B9DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8431799F-32CF-41E9-9058-A16D5159AFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8431799F-32CF-41E9-9058-A16D5159AFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8431799F-32CF-41E9-9058-A16D5159AFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8431799F-32CF-41E9-9058-A16D5159AFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
