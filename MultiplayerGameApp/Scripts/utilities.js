@@ -24,7 +24,7 @@
 
 $(window).load(function () {
     $("#hide-menu").click(function (e) {
-        console.log("asdf");
+        //console.log("asdf");
         $("#main-menu").animate({ left: '97%' });
         e.stopPropagation();
     });

@@ -60,7 +60,7 @@ function draw() {
 
 onReady = function () {
     var zapochnahmeLiDaChertaem = false;
-    console.log("onReady");
+    //console.log("onReady");
 
     window.addEventListener("mousedown", function () {
         zapochnahmeLiDaChertaem = true; //CHERTAI
@@ -88,7 +88,7 @@ onReady = function () {
 };
 
 userLeft = function (id) {
-    console.log(id + " otide da qde popara");
+    //console.log(id + " otide da qde popara");
     //tova se vika, kogato nqkoi izleze ot igrata
 }
 

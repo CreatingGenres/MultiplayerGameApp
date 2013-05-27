@@ -1,4 +1,4 @@
-﻿console.log("asdf");
+﻿//console.log("asdf");
 
 $(window).load(function () {
     
@@ -9,7 +9,7 @@ $(window).load(function () {
         setTimeout(function () {
             gameLogo.animate({ top: '150%' }, 750, function () {
                 ourLogo.css("opacity", 1);
-                console.log("an2");
+                //console.log("an2");
                 ourLogo.animate({ top: '40%', opacity: 1 }, 1000, function () {
                     setTimeout(function () {
                         ourLogo.animate({ top: '150%' }, 750);
