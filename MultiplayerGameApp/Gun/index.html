@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://patence.apphb.com/Scripts/jquery.signalR-1.1.0-beta1.js"></script>
+    <script src="http://patence.apphb.com/signalr/hubs"></script>
+    <script src="http://patence.apphb.com/Scripts/dispatcher.js"></script>
+    <script src="http://patence.apphb.com/Scripts/utilities.js"></script>
+
+    <link rel="stylesheet" href="http://patence.apphb.com/Styles/styles.css" />
+    <link rel="shortcut icon" href="http://patence.apphb.com/Images/game_controller.png" />
+
+    <!--[if IE 9]>
+        <script src="../Scripts/ie-polyfill.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="splash-screen">
+        <span id="game-logo"></span>
+        <span id="our-logo">Made possible by Creating Genres</span>
+    </div>
+
+    <div id="game-container">
+    
+        <nav id="main-menu">
+            <img id="hide-menu" src="http://patence.apphb.com/Images/arrow.png" /> <br />
+            <span class="button" id="start-game-button">Play</span> <br /> <br />
+            
+            <span id="loading-bar">Queued<span id="dot-span"></span></span>
+        </nav>
+		<canvas style="cursor: url(Normal.cur);" id="game-canvas">Your browser is bad and you should feel bad.</canvas>
+	</div>
+    
+    <script>
+        gameName = "Qshu's game";
+        numberOfPlayers = 2;
+        $.connection.hub.logging = true;
+    </script>
+    <script src="game.js"></script>
+</body>
+</html>
